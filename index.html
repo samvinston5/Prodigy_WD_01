@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="home">
+        <ul class="side-bar">
+            <li onclick=hidemenu()> <a > <img src="close_icon.png" alt="close"> </a></li>
+            <li> <a href="#home">Home </a></li>
+            <li> <a href="#about">About </a></li>
+            <li> <a href="#products">Products </a></li>
+            <li> <a href="#contacts">Contact </a></li>
+            <li> <a href="#login">Login </a></li>
+        </ul>
+        <ul class="head">
+            <li> <a href="#" class="logo"><span class="white">Wor</span>ld Art</a></li>
+            <li> <a href="#home" class="hide">Home </a></li>
+            <li> <a href="#about" class="hide">About </a></li>
+            <li> <a href="#prodcuts" class="hide">Products </a></li>
+            <li> <a href="#contact" class="hide">Contact </a></li>
+            <li> <a href="#login"  class="hide">Login </a></li>
+            <li onclick=showmenu()>  <a class="menu-icon" > <img  src="menu_icon.png" alt="close"> </a></li>
+        </ul>
+    </nav>
+
+
+    <div class="content" id="home">
+        <h1>World Art</h1><br>
+        <img src="home-img.jpg" alt="">
+    </div>
+
+    <div class="about-content" id="about">
+        <div class="about-us">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eligendi harum placeat est odit illo. Nihil ad aliquam delectus, harum beatae suscipit veritatis natus maiores laboriosam, similique modi eligendi nostrum?</p>
+            <button>Download our <br><b>App</b></button>
+        </div >
+        <div>
+            <img src="art-mobile.png" alt="">
+        </div>
+    </div>
+    
+    <div class="about-content" id="products">
+        <div>
+            <img src="art-mobile.png" alt="">
+        </div>
+        <div class="about-us">
+            <h2 style="text-align: center;">Gallery of Your Dreams</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eligendi harum placeat est odit illo. Nihil ad aliquam delectus, harum beatae suscipit veritatis natus maiores laboriosam, similique modi eligendi nostrum?</p>
+            <button>Learn more<br><b>--------></b></button>
+        </div >
+    </div>
+
+
+
+    <section class="contact" id="contacts">
+        <div class="socials">
+            <h1>Contact us</h1>
+            <p>contact@gmail.com</p>
+            <p>1234567890</p>
+            <a href="https://facebook.com"><img src="facebook_icon.png" alt=""></a>
+            <a href="https://x.com/"><img src="twitter_icon.png" alt=""></a>
+            <a href="https://instagram.com"><img src="instagram_icon.png" alt=""></a>
+            <a href="https://linkedin.com"><img src="linkedin_icon.png" alt=""></a>
+        </div>
+        <div class="text-area">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your Email">
+            <input type="text" placeholder="Your Message" class="para"><br>
+            <button class="btn-submit">Submit</button>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <p><span class="line">Privacy Policy </span>&nbsp; &nbsp;&nbsp;&nbsp;&copy; 2002 World Art</p>
+    </footer>
+    <script src="scr.js"></script>
+</body>
+</html>
